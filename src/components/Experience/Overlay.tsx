@@ -102,7 +102,7 @@ export default function Overlay() {
             title="Luxe Stay" 
             desc="Immersive volumetric booking platform for luxury hotels." 
             tech="WebGL • Next.js • Tailwind" 
-            imageUrl="https://miaoda-conversation-file.s3cdn.medo.dev/user-9byoztc9tssg/conv-9byq3pqym5mo/20260201/file-9bz4si15bjeo.png"
+            imageUrl="https://miaoda-conversation-file.s3cdn.medo.dev/user-9byoztc9tssg/conv-9byq3pqym5mo/20260201/file-9c1x5var4mww.png"
             details="With Luxe Stay, we reinvented hospitality. Travelers can virtually inhabit their suites before arrival. This spatial interface increased booking conversions by 40% by selling an emotion, not just a room. High-fidelity textures and dynamic lighting ensure the virtual room feels as warm and inviting as the real one."
           />
           <ProjectCard 

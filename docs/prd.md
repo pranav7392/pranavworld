@@ -51,7 +51,7 @@ An immersive, scroll-driven 3D portfolio website that transforms traditional web
   - Enter Project button
 - Projects include:
   - Restaurant management system: A creative solution showcasing seamless reservation systems, menu management, and customer engagement tools that demonstrate innovative thinking in hospitality technology. Use the provided image designarena_image_hivovhxh.png as visual reference for the gastronome project portal.
-  - Hotel booking platform: An immersive booking experience featuring real-time availability, dynamic pricing, and guest management that reflects sophisticated design and functional excellence
+  - Hotel booking platform (Luxe Stay): An immersive booking experience featuring real-time availability, dynamic pricing, and guest management that reflects sophisticated design and functional excellence. Use the provided image designarena_image_nhvve82c.png as visual reference for the Luxe Stay project portal.
   - Garage management system: A comprehensive workshop solution with inventory tracking, service scheduling, and customer communication that highlights problem-solving creativity
   - Class scheduling application: An educational platform with course management, student enrollment, and interactive learning tools that exemplifies user-centric design philosophy
 - Each project description emphasizes the creativity and craftsmanship behind the work
@@ -126,6 +126,7 @@ An immersive, scroll-driven 3D portfolio website that transforms traditional web
 - Portal models for projects
 - Particle systems throughout
 - Image asset: designarena_image_hivovhxh.png for restaurant management system portal
+- Image asset: designarena_image_nhvve82c.png for hotel booking platform (Luxe Stay) portal
 
 ### 4.3 Animation System
 - Scroll-triggered camera movements
@@ -155,7 +156,7 @@ An immersive, scroll-driven 3D portfolio website that transforms traditional web
 
 ### 5.3 Project Descriptions
 - Restaurant management system description highlighting creativity in hospitality solutions, with visual reference from designarena_image_hivovhxh.png
-- Hotel booking platform description emphasizing innovative design approach
+- Hotel booking platform (Luxe Stay) description emphasizing innovative design approach, with visual reference from designarena_image_nhvve82c.png
 - Garage management system description showcasing problem-solving capabilities
 - Class scheduling application description demonstrating user-centric philosophy
 
@@ -178,3 +179,4 @@ An immersive, scroll-driven 3D portfolio website that transforms traditional web
 
 ## 7. Reference Files
 - Image: designarena_image_hivovhxh.png (for restaurant management system gastronome project portal)
+- Image: designarena_image_nhvve82c.png (for hotel booking platform Luxe Stay project portal)
