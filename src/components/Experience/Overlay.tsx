@@ -90,24 +90,30 @@ export default function Overlay() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-7xl pointer-events-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-7xl pointer-events-auto">
           <ProjectCard 
-            title="Nexus AI" 
-            desc="A neural network powered workflow orchestrator for decentralized teams." 
-            tech="React • Python • TensorFlow" 
-            details="Nexus AI leverages edge computing to provide real-time coordination for global teams, utilizing advanced LLMs for task automation and conflict resolution."
+            title="The Gastronome" 
+            desc="A sensory-driven digital ecosystem for elite restaurants." 
+            tech="React • Three.js • GSAP" 
+            details="The Gastronome isn't just a menu; it's a cinematic journey. We transformed traditional dining into an interactive experience where guests explore ingredients through 3D visualizations, blurring the line between the kitchen and the digital realm."
           />
           <ProjectCard 
-            title="Aether" 
-            desc="The next generation of volumetric web experiences and spatial interfaces." 
-            tech="Three.js • WebGL • Rust" 
-            details="Aether pushes the boundaries of the browser by rendering complex 3D environments at 60fps, creating a truly spatial web where users don't just browse, they inhabit."
+            title="Luxe Stay" 
+            desc="Immersive volumetric booking platform for luxury hotels." 
+            tech="WebGL • Next.js • Tailwind" 
+            details="With Luxe Stay, we reinvented hospitality. Travelers can virtually inhabit their suites before arrival. This spatial interface increased booking conversions by 40% by selling an emotion, not just a room."
           />
           <ProjectCard 
-            title="Horizon" 
-            desc="Collaborative design tool for futuristic interfaces and multi-dimensional UI." 
-            tech="Rust • WASM • WebGPU" 
-            details="Horizon is a high-performance design tool that allows creators to build interfaces for AR, VR, and standard screens simultaneously using a unified design language."
+            title="Revive Garage" 
+            desc="High-performance diagnostic dashboard for modern garages." 
+            tech="Rust • WASM • Real-time Data" 
+            details="Revive visualizes automotive diagnostics as a living mechanical entity. Mechanics can pinpoint issues in a 3D exploded view of the vehicle, making maintenance intuitive, fast, and futuristic."
+          />
+          <ProjectCard 
+            title="Scholar's Path" 
+            desc="Immersive learning ecosystem for advanced classes." 
+            tech="React Three Fiber • AI • Node" 
+            details="Scholar's Path transcends the screen. We built a spatial knowledge node system where students navigate complex subjects like galaxy explorers, turning passive learning into active exploration."
           />
         </div>
       </Section>

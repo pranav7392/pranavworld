@@ -49,6 +49,12 @@ An immersive, scroll-driven 3D portfolio website that transforms traditional web
   - Cinematic description
   - Tech stack
   - Enter Project button
+- Projects include:
+  - Restaurant management system: A creative solution showcasing seamless reservation systems, menu management, and customer engagement tools that demonstrate innovative thinking in hospitality technology
+  - Hotel booking platform: An immersive booking experience featuring real-time availability, dynamic pricing, and guest management that reflects sophisticated design and functional excellence
+  - Garage management system: A comprehensive workshop solution with inventory tracking, service scheduling, and customer communication that highlights problem-solving creativity
+  - Class scheduling application: An educational platform with course management, student enrollment, and interactive learning tools that exemplifies user-centric design philosophy
+- Each project description emphasizes the creativity and craftsmanship behind the work
 - Floating text: Every project is a gateway.
 
 ### 2.5 Scene 4 - The Future (Vision)
@@ -145,6 +151,12 @@ An immersive, scroll-driven 3D portfolio website that transforms traditional web
 - GitHub link
 - LinkedIn link
 - Optional World Map navigation icon
+
+### 5.3 Project Descriptions
+- Restaurant management system description highlighting creativity in hospitality solutions
+- Hotel booking platform description emphasizing innovative design approach
+- Garage management system description showcasing problem-solving capabilities
+- Class scheduling application description demonstrating user-centric philosophy
 
 ## 6. Design Principles
 
