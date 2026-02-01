@@ -109,14 +109,14 @@ export default function Overlay() {
             title="Revive Garage" 
             desc="High-performance diagnostic dashboard for modern garages." 
             tech="Rust • WASM • Real-time Data" 
-            imageUrl="https://miaoda-conversation-file.s3cdn.medo.dev/user-9byoztc9tssg/conv-9byq3pqym5mo/20260201/file-9bz4si15bjeo.png"
+            imageUrl="https://miaoda-conversation-file.s3cdn.medo.dev/user-9byoztc9tssg/conv-9byq3pqym5mo/20260201/file-9c21c9fk7dhc.png"
             details="Revive visualizes automotive diagnostics as a living mechanical entity. Mechanics can pinpoint issues in a 3D exploded view of the vehicle, making maintenance intuitive, fast, and futuristic. The dashboard bridges the gap between raw telemetry data and visual clarity."
           />
           <ProjectCard 
             title="Scholar's Path" 
             desc="Immersive learning ecosystem for advanced classes." 
             tech="React Three Fiber • AI • Node" 
-            imageUrl="https://miaoda-conversation-file.s3cdn.medo.dev/user-9byoztc9tssg/conv-9byq3pqym5mo/20260201/file-9bz4si15bjeo.png"
+            imageUrl="https://miaoda-conversation-file.s3cdn.medo.dev/user-9byoztc9tssg/conv-9byq3pqym5mo/20260201/file-9c2a4e5tvv2a.png"
             details="Scholar's Path transcends the screen. We built a spatial knowledge node system where students navigate complex subjects like galaxy explorers, turning passive learning into active exploration. It leverages AI to dynamically generate learning paths based on the student's spatial curiosity."
           />
         </div>
