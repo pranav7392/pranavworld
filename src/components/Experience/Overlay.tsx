@@ -214,10 +214,6 @@ function ProjectCard({ title, desc, tech, details }: { title: string, desc: stri
           whileHover={{ y: -15, scale: 1.02 }}
           className="p-10 rounded-[2rem] bg-card/30 backdrop-blur-2xl border border-white/5 hover:border-primary/50 transition-all group cursor-pointer relative overflow-hidden h-full flex flex-col"
         >
-          <div className="absolute top-0 right-0 p-8 opacity-0 group-hover:opacity-100 transition-opacity">
-            <ExternalLink className="w-6 h-6 text-primary" />
-          </div>
-          
           <div className="h-16 w-16 rounded-2xl bg-primary/10 flex items-center justify-center mb-8 group-hover:bg-primary/20 transition-colors">
             <Rocket className="text-primary h-8 w-8" />
           </div>
@@ -229,7 +225,7 @@ function ProjectCard({ title, desc, tech, details }: { title: string, desc: stri
             <div className="h-px w-full bg-white/5" />
             <div className="flex justify-between items-center">
               <span className="text-xs font-mono text-primary/60 uppercase tracking-[0.2em]">{tech}</span>
-              <span className="text-sm font-bold group-hover:translate-x-1 transition-transform">VIEW PORTAL →</span>
+              <span className="text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity">READ STORY →</span>
             </div>
           </div>
         </motion.div>
@@ -252,8 +248,12 @@ function ProjectCard({ title, desc, tech, details }: { title: string, desc: stri
         
         <div className="space-y-6 py-6">
           <div className="aspect-video rounded-2xl bg-muted/20 border border-white/5 flex items-center justify-center relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-secondary/10" />
-            <p className="relative z-10 text-muted-foreground italic">Project Visualization Loading...</p>
+            <img 
+              src="https://miaoda-conversation-file.s3cdn.medo.dev/user-9byoztc9tssg/conv-9byq3pqym5mo/20260201/file-9bz4si15bjeo.png" 
+              alt={title}
+              className="w-full h-full object-cover opacity-80"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
           </div>
           
           <div className="space-y-4">
@@ -261,15 +261,6 @@ function ProjectCard({ title, desc, tech, details }: { title: string, desc: stri
             <p className="text-muted-foreground leading-relaxed text-lg">
               {details}
             </p>
-          </div>
-          
-          <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Button className="flex-1 h-14 rounded-xl text-lg cinematic-glow">
-              Enter Project Portal
-            </Button>
-            <Button variant="outline" className="flex-1 h-14 rounded-xl text-lg border-white/10 hover:bg-white/5">
-              Source Access
-            </Button>
           </div>
         </div>
       </DialogContent>
