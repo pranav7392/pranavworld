@@ -95,25 +95,29 @@ export default function Overlay() {
             title="The Gastronome" 
             desc="A sensory-driven digital ecosystem for elite restaurants." 
             tech="React • Three.js • GSAP" 
-            details="The Gastronome isn't just a menu; it's a cinematic journey. We transformed traditional dining into an interactive experience where guests explore ingredients through 3D visualizations, blurring the line between the kitchen and the digital realm."
+            imageUrl="https://miaoda-conversation-file.s3cdn.medo.dev/user-9byoztc9tssg/conv-9byq3pqym5mo/20260201/file-9c1slg217uo0.png"
+            details="The Gastronome isn't just a menu; it's a cinematic journey. We transformed traditional dining into an interactive experience where guests explore ingredients through 3D visualizations, blurring the line between the kitchen and the digital realm. The interface uses real-time fluid simulations to represent flavors, creating a pre-tasting visual feast."
           />
           <ProjectCard 
             title="Luxe Stay" 
             desc="Immersive volumetric booking platform for luxury hotels." 
             tech="WebGL • Next.js • Tailwind" 
-            details="With Luxe Stay, we reinvented hospitality. Travelers can virtually inhabit their suites before arrival. This spatial interface increased booking conversions by 40% by selling an emotion, not just a room."
+            imageUrl="https://miaoda-conversation-file.s3cdn.medo.dev/user-9byoztc9tssg/conv-9byq3pqym5mo/20260201/file-9bz4si15bjeo.png"
+            details="With Luxe Stay, we reinvented hospitality. Travelers can virtually inhabit their suites before arrival. This spatial interface increased booking conversions by 40% by selling an emotion, not just a room. High-fidelity textures and dynamic lighting ensure the virtual room feels as warm and inviting as the real one."
           />
           <ProjectCard 
             title="Revive Garage" 
             desc="High-performance diagnostic dashboard for modern garages." 
             tech="Rust • WASM • Real-time Data" 
-            details="Revive visualizes automotive diagnostics as a living mechanical entity. Mechanics can pinpoint issues in a 3D exploded view of the vehicle, making maintenance intuitive, fast, and futuristic."
+            imageUrl="https://miaoda-conversation-file.s3cdn.medo.dev/user-9byoztc9tssg/conv-9byq3pqym5mo/20260201/file-9bz4si15bjeo.png"
+            details="Revive visualizes automotive diagnostics as a living mechanical entity. Mechanics can pinpoint issues in a 3D exploded view of the vehicle, making maintenance intuitive, fast, and futuristic. The dashboard bridges the gap between raw telemetry data and visual clarity."
           />
           <ProjectCard 
             title="Scholar's Path" 
             desc="Immersive learning ecosystem for advanced classes." 
             tech="React Three Fiber • AI • Node" 
-            details="Scholar's Path transcends the screen. We built a spatial knowledge node system where students navigate complex subjects like galaxy explorers, turning passive learning into active exploration."
+            imageUrl="https://miaoda-conversation-file.s3cdn.medo.dev/user-9byoztc9tssg/conv-9byq3pqym5mo/20260201/file-9bz4si15bjeo.png"
+            details="Scholar's Path transcends the screen. We built a spatial knowledge node system where students navigate complex subjects like galaxy explorers, turning passive learning into active exploration. It leverages AI to dynamically generate learning paths based on the student's spatial curiosity."
           />
         </div>
       </Section>
@@ -206,7 +210,7 @@ function SocialLink({ href, icon, label }: { href: string, icon: React.ReactNode
   );
 }
 
-function ProjectCard({ title, desc, tech, details }: { title: string, desc: string, tech: string, details: string }) {
+function ProjectCard({ title, desc, tech, details, imageUrl }: { title: string, desc: string, tech: string, details: string, imageUrl: string }) {
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -247,11 +251,11 @@ function ProjectCard({ title, desc, tech, details }: { title: string, desc: stri
         </DialogHeader>
         
         <div className="space-y-6 py-6">
-          <div className="aspect-video rounded-2xl bg-muted/20 border border-white/5 flex items-center justify-center relative overflow-hidden">
+          <div className="aspect-video rounded-2xl bg-muted/20 border border-white/5 flex items-center justify-center relative overflow-hidden shadow-2xl">
             <img 
-              src="https://miaoda-conversation-file.s3cdn.medo.dev/user-9byoztc9tssg/conv-9byq3pqym5mo/20260201/file-9bz4si15bjeo.png" 
+              src={imageUrl} 
               alt={title}
-              className="w-full h-full object-cover opacity-80"
+              className="w-full h-full object-cover opacity-90 transition-transform duration-700 hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
           </div>

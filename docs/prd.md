@@ -50,7 +50,7 @@ An immersive, scroll-driven 3D portfolio website that transforms traditional web
   - Tech stack
   - Enter Project button
 - Projects include:
-  - Restaurant management system: A creative solution showcasing seamless reservation systems, menu management, and customer engagement tools that demonstrate innovative thinking in hospitality technology
+  - Restaurant management system: A creative solution showcasing seamless reservation systems, menu management, and customer engagement tools that demonstrate innovative thinking in hospitality technology. Use the provided image designarena_image_hivovhxh.png as visual reference for the gastronome project portal.
   - Hotel booking platform: An immersive booking experience featuring real-time availability, dynamic pricing, and guest management that reflects sophisticated design and functional excellence
   - Garage management system: A comprehensive workshop solution with inventory tracking, service scheduling, and customer communication that highlights problem-solving creativity
   - Class scheduling application: An educational platform with course management, student enrollment, and interactive learning tools that exemplifies user-centric design philosophy
@@ -125,6 +125,7 @@ An immersive, scroll-driven 3D portfolio website that transforms traditional web
 - Skill metaphor objects (grids, particles, geometry)
 - Portal models for projects
 - Particle systems throughout
+- Image asset: designarena_image_hivovhxh.png for restaurant management system portal
 
 ### 4.3 Animation System
 - Scroll-triggered camera movements
@@ -153,7 +154,7 @@ An immersive, scroll-driven 3D portfolio website that transforms traditional web
 - Optional World Map navigation icon
 
 ### 5.3 Project Descriptions
-- Restaurant management system description highlighting creativity in hospitality solutions
+- Restaurant management system description highlighting creativity in hospitality solutions, with visual reference from designarena_image_hivovhxh.png
 - Hotel booking platform description emphasizing innovative design approach
 - Garage management system description showcasing problem-solving capabilities
 - Class scheduling application description demonstrating user-centric philosophy
@@ -174,3 +175,6 @@ An immersive, scroll-driven 3D portfolio website that transforms traditional web
 - No traditional sections or boring layouts
 - Experience-first approach
 - Feels like entering someone's mind and exploring a creative universe
+
+## 7. Reference Files
+- Image: designarena_image_hivovhxh.png (for restaurant management system gastronome project portal)
