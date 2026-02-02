@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { useNavigate } from 'react-router-dom';
-import { Github, Linkedin, MessageSquare, Rocket, ExternalLink, Cpu, Layout, Palette } from 'lucide-react';
+import { Instagram, MessageSquare, Rocket, ExternalLink, Cpu, Layout, Palette } from 'lucide-react';
 import {
   Dialog,
   DialogContent,
@@ -180,8 +180,7 @@ export default function Overlay() {
           </div>
 
           <div className="flex gap-12 justify-center pt-12">
-            <SocialLink href="#" icon={<Github className="h-10 w-10" />} label="GitHub" />
-            <SocialLink href="#" icon={<Linkedin className="h-10 w-10" />} label="LinkedIn" />
+            <SocialLink href="#" icon={<Instagram className="h-10 w-10" />} label="Instagram" />
           </div>
           
           <div className="pt-24 space-y-4">

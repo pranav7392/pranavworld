@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, Phone, ArrowLeft, Github, Linkedin, MapPin } from 'lucide-react';
+import { Mail, Phone, ArrowLeft, Instagram, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useNavigate } from 'react-router-dom';
 
@@ -60,10 +60,7 @@ export default function Contact() {
 
             <div className="flex gap-6 pt-8">
               <a href="#" className="p-3 rounded-xl bg-muted/50 hover:bg-primary/20 transition-colors">
-                <Github className="h-6 w-6" />
-              </a>
-              <a href="#" className="p-3 rounded-xl bg-muted/50 hover:bg-secondary/20 transition-colors">
-                <Linkedin className="h-6 w-6" />
+                <Instagram className="h-6 w-6" />
               </a>
             </div>
           </div>
