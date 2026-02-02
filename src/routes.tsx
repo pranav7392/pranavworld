@@ -1,4 +1,5 @@
 import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 import type { ReactNode } from 'react';
 
 interface RouteConfig {
@@ -13,6 +14,11 @@ const routes: RouteConfig[] = [
     name: 'Portfolio',
     path: '/',
     element: <Portfolio />
+  },
+  {
+    name: 'Contact',
+    path: '/contact',
+    element: <Contact />
   }
 ];
 

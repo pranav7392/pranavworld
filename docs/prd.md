@@ -76,13 +76,19 @@ An immersive, scroll-driven 3D portfolio website that transforms traditional web
 - Soft glow on hover
 - Slow drifting particles
 
-### 2.7 Scroll-Driven Interactions
+### 2.7 Contact Page
+- Clicking Contact Pranav button redirects to contact information page
+- Contact information displayed:
+  - E-Mail: jspark.itservices@gmail.com
+  - Mobile: 8799603770
+
+### 2.8 Scroll-Driven Interactions
 - Scrolling controls camera movement through all scenes
 - Transitions between moods, colors, and lighting
 - Environments morph continuously without cuts
 - One continuous cinematic shot experience
 
-### 2.8 Navigation
+### 2.9 Navigation
 - No visible navbar initially
 - Optional floating World Map icon
 
@@ -145,10 +151,11 @@ An immersive, scroll-driven 3D portfolio website that transforms traditional web
 - Scene 3: Every project is a gateway.
 - Scene 4: The future isn't designed. It's imagined first. — Pranav, JSParK
 - Final: Ready to enter my world? Let's build something unreal.
+- Contact Page: E-Mail: jspark.itservices@gmail.com, Mobile: 8799603770
 
 ### 5.2 Interactive Elements
 - Project portals with overlay details
-- Contact Pranav button
+- Contact Pranav button (redirects to contact page)
 - Start a Project with JSParK button
 - GitHub link
 - LinkedIn link

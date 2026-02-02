@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
+import { useNavigate } from 'react-router-dom';
 import { Github, Linkedin, MessageSquare, Rocket, ExternalLink, Cpu, Layout, Palette } from 'lucide-react';
 import {
   Dialog,
@@ -11,6 +12,7 @@ import {
 } from "@/components/ui/dialog";
 
 export default function Overlay() {
+  const navigate = useNavigate();
   return (
     <div id="overlay-container" className="relative z-10 w-full overflow-hidden pointer-events-none">
       {/* Hero Section */}
@@ -158,11 +160,20 @@ export default function Overlay() {
           </div>
 
           <div className="flex flex-col md:flex-row gap-6 justify-center">
-            <Button size="lg" className="h-20 px-16 text-xl rounded-full cinematic-glow group bg-primary hover:bg-primary/90">
+            <Button 
+              size="lg" 
+              onClick={() => navigate('/contact')}
+              className="h-20 px-16 text-xl rounded-full cinematic-glow group bg-primary hover:bg-primary/90"
+            >
               <MessageSquare className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform" />
               Contact Pranav
             </Button>
-            <Button size="lg" variant="outline" className="h-20 px-16 text-xl rounded-full border-primary/50 hover:bg-primary/10 group backdrop-blur-sm">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              onClick={() => navigate('/contact')}
+              className="h-20 px-16 text-xl rounded-full border-primary/50 hover:bg-primary/10 group backdrop-blur-sm"
+            >
               <Rocket className="mr-3 h-6 w-6 group-hover:translate-y--1 group-hover:translate-x-1 transition-transform" />
               Start a Project
             </Button>
