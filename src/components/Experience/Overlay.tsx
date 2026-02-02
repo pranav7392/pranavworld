@@ -171,7 +171,7 @@ export default function Overlay() {
             <Button 
               size="lg" 
               variant="outline" 
-              onClick={() => navigate('/contact')}
+              onClick={() => window.location.href = 'https://jsparkstudio.netlify.app/'}
               className="h-20 px-16 text-xl rounded-full border-primary/50 hover:bg-primary/10 group backdrop-blur-sm"
             >
               <Rocket className="mr-3 h-6 w-6 group-hover:translate-y--1 group-hover:translate-x-1 transition-transform" />
